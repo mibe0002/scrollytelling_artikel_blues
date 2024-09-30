@@ -8,7 +8,31 @@ import section4a from "../assets/images/section4a.jpg";
 import section4b from "../assets/images/section4b.jpg";
 import section4c from "../assets/images/section4c.jpg";
 import section5 from "../assets/images/section5.jpg";
-// const blues =
+const blues = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://blueshistorien.netlify.app/"
+  },
+  "headline": "Historien om Blues: Musikken der Formede Generationer",
+  "description": "Dyk ned i historien om blues-genren, fra dens rødder i sydstaterne til dens indflydelse på moderne musik. Oplev de største kunstnere og tidløse sange.",
+  "image": "https://blueshistorien.netlify.app/_astro/section1.C2vvOUUg_2488y6.webp",  
+  "author": {
+    "@type": "Organization",
+    "name": "KEA-Studerende-MMD"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Netlify",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.icon-icons.com/icons2/3388/PNG/512/netlify_icon_212767.png"
+    }
+  },
+  "datePublished": "2024-09-30",
+  "dateModified": "2024-09-30"
+}
 ---
 <MainLayout
 title="Historien om Blues"
@@ -108,4 +132,4 @@ ogdescription="Oplev historien om blues, en musikgenre født af menneskers oplev
 
     </article>
 </MainLayout>
-<!-- <script type="application/ld+json" set:html={JSON.stringify(blues)} /> -->
+<script type="application/ld+json" set:html={JSON.stringify(blues)} />
