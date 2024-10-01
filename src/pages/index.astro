@@ -8,6 +8,8 @@ import section4a from "../assets/images/section4a.jpg";
 import section4b from "../assets/images/section4b.jpg";
 import section4c from "../assets/images/section4c.jpg";
 import section5 from "../assets/images/section5.jpg";
+import headerpic from "../assets/images/headerpic.jpg";
+
 const blues = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -39,10 +41,14 @@ title="Historien om Blues"
 description="Dyk ned i historien om blues-genren, fra dens rødder i sydstaterne til dens indflydelse på moderne musik. Oplev de største kunstnere og tidløse sange."
 ogtitle="Blues: Fra Rødderne i Sydstaterne til Moderne Musik – En Historisk Fortælling" 
 ogdescription="Oplev historien om blues, en musikgenre født af menneskers oplevelser og udtryk. Følg dens rejse fra sydstaterne til verdens største scener." >
-	<article class="grid mx-auto container gap-8 pt-8 prose">
-        <h1>Historien om Blues: Musikken der Formede Generationer</h1>
+<section class="w-full h-auto bg-cover bg-center" style="background-image:">
+                <Image src={headerpic} alt="Header billede med to kendte blues kunstnere" />
+                <div class="absolute pt:0 lg:pt-24 inset-0 flex items-start justify-start text-center">
+                    <h1 class="text-orange-300 text-3xl md:text-5xl lg:text-7xl font-bold">Historien om Blues: Musikken der Formede Generationer</h1>
+                </div>
+</section>
 
-
+<article class="grid mx-auto container gap-8 pt-8 prose">
         <h2>1)Hvad er Blues?</h2>
 
         <p>Blues er en musikgenre, der opstod i de afroamerikanske samfund i USA i slutningen af 1800-tallet.
